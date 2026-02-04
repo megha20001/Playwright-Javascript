@@ -1,12 +1,12 @@
 //type conversion
-let zipcode = String(585103); 
+let zipcode = String(565207); 
 console.log(zipcode, typeof zipcode); //num to string
-let dob = Number("10102000");
+let dob = Number("10102009");
 console.log(dob, typeof dob); // string to num
 
   // coersion
 const plotno = 101865;
-let plotname =" 'madhu kunj'585103"; 
+let plotname =" 'home'565207"; 
 let address = plotno + plotname; //num + string o/p is string
 console.log(address, typeof address);
 
@@ -22,4 +22,5 @@ console.log(address, typeof address);
  let logicresult = b > a || c<b
  let bitwiseresult = b > a | c<b
  console.log(logicresult);  // output true or false
+
  console.log(bitwiseresult); //output 1 or 0
